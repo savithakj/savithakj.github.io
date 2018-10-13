@@ -1,0 +1,14 @@
+theme = "custom-simple"
+baseURL = "http://savithakj.github.io/"
+languageCode = "en-us"
+title = "My though repository"
+publishDir = "../public"
+PygmentsCodeFences = true
+PygmentsUseClasses = true
+[blackfriday]
+  angledQuotes = true
+  fractions = false
+  plainIDAnchors = true
+  extensions = ["hardLineBreak"]
+[permalinks]
+  posts = "posts/:year/:month/:title/"
