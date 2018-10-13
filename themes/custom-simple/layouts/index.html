@@ -22,7 +22,7 @@
                             I am a computer science graduate from RIT, New York and I am also a Graduate Assistant there as well.
                         </p>
                     </section>
-                    <section class="hero">
+                    <section class="hero mt15">
                         <p>
                             I am interested in:
                         </p>
@@ -45,26 +45,35 @@
             <div class="container padded-section">
                 <section>
                     <h1>
-                        I RECENTLY WROTE ABOUT:
+                        I RECENTLY WROTE ABOUT
                     </h1>
                 </section>
 
-                <section>
-                    {{ range ((where .Data.Pages "Type" "posts").GroupByDate "2006") }}
-                      <div class="year"> {{ .Key }} </div>
-                      {{ range .Pages}}
-                      <div class="columns">
-                          <div class="column is-one-fifth">
-                              <span class="date">{{ dateFormat "Monday, Jan 2" .Date }} </span>
-                          </div>
-                          <div class="column heading title">
-                              <span><a href="{{ .Permalink }}">{{ .Title }}</a></span>
-                          </div>
-                      </div>
-                    {{ end }}
+                <section class="post-items mt20">
+                  {{ range ((where .Data.Pages "Type" "posts").GroupByDate "2006") }}
+                    <div class="mt20">
+                        <div class="year"> {{ .Key }} </div>
+                        {{ range .Pages}}
+                        <section class="item">
+                            <div class="heading">
+                                <span>
+                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                </span>
+                                <div class="date">{{ dateFormat "Monday, Jan 2" .Date }} </div>
+                            </div>
+                        </section>
+                        {{ end }}
+                    </div>
                   {{ end }}
                 </section>
             </div>
         </div>
+
+        <div class="empty-footer">
+        </div>
     </body>
 </html>
+
+<!--
+     https://stackoverflow.com/questions/29410329/create-a-slanted-edge-to-a-div
+-->
