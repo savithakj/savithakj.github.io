@@ -1,0 +1,99 @@
+/* Globals */
+/*
+Available Fonts
+font-family: 'Roboto', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Pacifico', cursive;
+font-family: 'Signika', sans-serif;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FEFFFF;
+    color: #17252A;
+}
+
+.mt20{
+    margin-top: 60px;
+}
+
+.mt40{
+    margin-top: 60px;
+}
+
+.mt60{
+    margin-top: 60px;
+}
+
+.circlify{
+    border-radius: 50%;
+}
+
+/* navbar */
+
+.navbar-item a{
+    color: #17252A;
+}
+.navbar-menu.is-active{
+    height: 100vh;
+}
+
+/* index page */
+
+.hero{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.container section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-image {
+    margin: 0 auto;
+    text-align: center;
+    width: 140px;
+}
+
+.hero h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2em;
+}
+
+.hero p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+}
+
+.hero span{
+    font-size: 0.9em;
+    text-decoration: underline;
+    text-decoration-color: #3AAFA9;
+}
+
+section h1{
+    font-family: 'Signika', sans-serif;
+    color: rgba(23, 37, 42, 0.8);
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 420px) {
+    .hero-image {
+        width: 145px;
+    }
+
+    .hero h2{
+        font-size: 1.3em;
+    }
+
+    .hero p{
+        font-size: 1.2em;
+    }
+
+    .hero span{
+        font-size: 1.1em;
+    }
+}
+
+
