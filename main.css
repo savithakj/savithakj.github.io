@@ -19,16 +19,20 @@ body {
     color: #17252A;
 }
 
+.mt15{
+    margin-top: 15px !important;
+}
+
 .mt20{
-    margin-top: 20px;
+    margin-top: 20px !important;
 }
 
 .mt40{
-    margin-top: 40px;
+    margin-top: 40px !important;
 }
 
 .mt60{
-    margin-top: 60px;
+    margin-top: 60px !important;
 }
 
 .circlify{
@@ -69,6 +73,7 @@ body {
 
 .hero p{
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.9em;
 }
 
@@ -76,12 +81,15 @@ body {
     font-size: 0.9em;
     text-decoration: underline;
     text-decoration-color: #3AAFA9;
+    font-weight: 300;
 }
 
 section h1{
+    text-align: center;
     font-family: 'Signika', sans-serif;
     color: rgba(23, 37, 42, 0.8);
     font-weight: 300;
+    font-size: 1.1em;
 }
 
 @media only screen and (min-width: 420px) {
@@ -108,5 +116,17 @@ section h1{
 Home Page: Post listing
 */
 
-.post-item .year{
+.post-items .year{
+    font-family: 'Roboto', sans-serif;
 }
+
+.post-items .item .heading span a{
+    font-family: 'Signika', sans-serif;
+    color: #3AAFA9;
+    font-size: 1.3em;
+}
+
+.empty-footer{
+    height: 30px;
+}
+
