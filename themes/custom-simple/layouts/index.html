@@ -48,6 +48,22 @@
                         I RECENTLY WROTE ABOUT:
                     </h1>
                 </section>
+
+                <section>
+                    {{ range ((where .Data.Pages "Type" "posts").GroupByDate "2006") }}
+                      <div class="year"> {{ .Key }} </div>
+                      {{ range .Pages}}
+                      <div class="columns">
+                          <div class="column is-one-fifth">
+                              <span class="date">{{ dateFormat "Monday, Jan 2" .Date }} </span>
+                          </div>
+                          <div class="column heading title">
+                              <span><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+                          </div>
+                      </div>
+                    {{ end }}
+                  {{ end }}
+                </section>
             </div>
         </div>
     </body>
