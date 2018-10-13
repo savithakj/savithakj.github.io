@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My though repository</title>
+    <link>http://savithakj.github.io/posts/</link>
+    <description>Recent content in Posts on My though repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Oct 2018 08:43:04 -0700</lastBuildDate>
+    
+	<atom:link href="http://savithakj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Post on World Hunger</title>
+      <link>http://savithakj.github.io/posts/2018/10/new-post-on-world-hunger/</link>
+      <pubDate>Sat, 13 Oct 2018 08:43:04 -0700</pubDate>
+      
+      <guid>http://savithakj.github.io/posts/2018/10/new-post-on-world-hunger/</guid>
+      <description>New Pots on world hunger</description>
+    </item>
+    
+    <item>
+      <title>Seminar I Conducted on Bitcoin</title>
+      <link>http://savithakj.github.io/posts/2018/10/seminar-i-conducted-on-bitcoin/</link>
+      <pubDate>Sat, 13 Oct 2018 05:08:01 -0700</pubDate>
+      
+      <guid>http://savithakj.github.io/posts/2018/10/seminar-i-conducted-on-bitcoin/</guid>
+      <description>This is a simple post about the seminar I conducted on bitcoin</description>
+    </item>
+    
+    <item>
+      <title>New Post on World Order</title>
+      <link>http://savithakj.github.io/posts/2017/10/new-post-on-world-order/</link>
+      <pubDate>Fri, 13 Oct 2017 08:44:07 -0700</pubDate>
+      
+      <guid>http://savithakj.github.io/posts/2017/10/new-post-on-world-order/</guid>
+      <description>Beboop</description>
+    </item>
+    
+  </channel>
+</rss>

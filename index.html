@@ -1,5 +1,162 @@
+<!DOCTYPE html>
 <html>
-<body>
-random content
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Inconsolata|Pacifico|Roboto:300,400|Signika:300,600" rel="stylesheet">
+
+<link href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css" rel="stylesheet" >
+<link href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/main.css">
+
+
+
+    <body>
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                savithajayasankar
+                
+            </a>
+
+            <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuIndex">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navMenuIndex" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a href="/"> @RIT </a>
+                </div>
+                <div class="navbar-item">
+                    <a href="/"> @GitHub </a>
+                </div>
+                <div class="navbar-item">
+                    <a href="/"> Résumé </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script type="text/javascript">
+ document.addEventListener('DOMContentLoaded', () => {
+
+     
+     var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+     
+     if ($navbarBurgers.length > 0) {
+
+         
+         $navbarBurgers.forEach( el => {
+             el.addEventListener('click', () => {
+
+                 
+                 var target = el.dataset.target;
+                 var $target = document.getElementById(target);
+
+                 
+                 el.classList.toggle('is-active');
+                 $target.classList.toggle('is-active');
+             });
+         });
+     }
+
+ });
+</script>
+
+
+        <div class="mt60">
+            <div class="container">
+                <div class="hero is-hidden-tablet-only is-hidden-desktop-only is-hidden-widescreen-only">
+                    <div class="hero-image">
+                         <img class="circlify" src="/images/profile.jpg" />
+                    </div>
+
+                    <section class="hero">
+                        <h2>
+                            Hi, I'm Savitha.
+                        </h2>
+                    </section>
+
+                    <section class="hero">
+                        <p>
+                            I am a computer science graduate from RIT, New York and I am also a Graduate Assistant there as well.
+                        </p>
+                    </section>
+                    <section class="hero">
+                        <p>
+                            I am interested in:
+                        </p>
+                    </section>
+
+                    <section class="hero">
+                        <span>
+                            Data Science, Security
+                        </span>
+
+                        <span>
+                            and Artificial Intelligence
+                        </span>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt40">
+            <div class="container padded-section">
+                <section>
+                    <h1>
+                        I RECENTLY WROTE ABOUT:
+                    </h1>
+                </section>
+
+                <div class="items">
+                    
+                    <div class="year"> 2018 </div>
+                    
+                    <div class="columns">
+                        <div class="column is-one-fifth">
+                            <span class="date">Saturday, Oct 13 </span>
+                        </div>
+                        <div class="column heading title">
+                            <span><a href="http://savithakj.github.io/posts/2018/10/new-post-on-world-hunger/">New Post on World Hunger</a></span>
+                        </div>
+                    </div>
+                    
+                    <div class="columns">
+                        <div class="column is-one-fifth">
+                            <span class="date">Saturday, Oct 13 </span>
+                        </div>
+                        <div class="column heading title">
+                            <span><a href="http://savithakj.github.io/posts/2018/10/seminar-i-conducted-on-bitcoin/">Seminar I Conducted on Bitcoin</a></span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="year"> 2017 </div>
+                    
+                    <div class="columns">
+                        <div class="column is-one-fifth">
+                            <span class="date">Friday, Oct 13 </span>
+                        </div>
+                        <div class="column heading title">
+                            <span><a href="http://savithakj.github.io/posts/2017/10/new-post-on-world-order/">New Post on World Order</a></span>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
+
+
