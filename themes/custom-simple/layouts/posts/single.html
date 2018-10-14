@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
     {{ partial "header.html" . }}
-    <body class="flow-text">
-        {{ partial "navbar.html" . }}
+    <body>
+        {{partial "navbar.html" .}}
 
-        <div class="loop section content-item">
-            <div class="container post">
-                <div class="tk-museo heading">
-                    <h1 class="flexi-h1">{{ .Title }}</h1>
-                    <div class="companion">
-                        {{ .Description }}
-                    </div>
+        <div class="mt120 post-content paddinglr10">
+            <section>
+                <div class="container is-fluid">
+                    <section>
+                        <div class="container is-fluid">
+                            <h1 class="content-title">{{ .Title }}</h1>
+                            <div class="content-description">
+                                {{ .Description }}
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="mt40">
+                        <div class="container is-fluid content">
+                            {{ .Content }}
+                        </div>
+                    </section>
                 </div>
-                <div class="content-body">
-                    {{ .Content }}
-                </div>
-            </div>
+            </section>
+        </div>
+
+        <div class="empty-footer">
         </div>
     </body>
 </html>

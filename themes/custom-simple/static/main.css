@@ -35,6 +35,18 @@ body {
     margin-top: 60px !important;
 }
 
+.mt80{
+    margin-top: 80px !important;
+}
+
+.mt100{
+    margin-top: 100px !important;
+}
+
+.mt120{
+    margin-top: 120px !important;
+}
+
 .circlify{
     border-radius: 50%;
 }
@@ -49,6 +61,11 @@ body {
 }
 
 /* index page */
+
+.paddinglr10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .paddinglr20 {
     padding-left: 20px;
@@ -229,4 +246,81 @@ Home Page: Post listing
     .post-items .item .heading span a{
         font-size: 2.2em;
     } 
+}
+
+
+/* post content page */
+
+.post-content .content {
+    font-family: 'Inconsolata', sans-serif;
+    margin-top: 40px;
+}
+
+.post-content .content-title {
+    color: #3AAfA9;
+    font-size: 1.3em;
+}
+
+.post-content .content h4{
+    font-size: 1.6em;
+}
+
+.post-content .content h5{
+    font-size: 1.2em;
+}
+
+.post-content .content p:first-of-type{
+    margin-top: 44px;
+}
+
+@media only screen and (min-width: 769px) {
+    .post-content .content-title {
+        font-size: 1.6em;
+    }
+
+    .post-content .content {
+        margin-top: 45px;
+        font-size: 1.1em;
+    }
+
+
+}
+
+@media only screen and (min-width: 1023px) {
+    .post-content .content-title {
+        font-size: 1.9em;
+        font-weight: 600;
+    }
+
+    .post-content .content {
+        margin-top: 50px;
+        font-size: 1.3em;
+    }
+
+
+}
+
+@media only screen and (min-width: 1215px) {
+    .post-content .content-title {
+        font-size: 2.2em;
+        font-weight: 600;
+    }
+
+    .post-content .content {
+        margin-top: 55px;
+        font-size: 1.3em;
+    }
+
+}
+
+@media only screen and (min-width: 1407px) {
+    .post-content .content-title {
+        font-size: 2.6em;
+        font-weight: 600;
+    }
+
+    .post-content .content {
+        margin-top: 60px;
+        font-size: 1.3em;
+    }
 }
