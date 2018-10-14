@@ -14,7 +14,7 @@ http://blog.visme.co/website-color-schemes/
 */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Signika', sans-serif;
     background-color: #FEFFFF;
     color: #17252A;
 }
@@ -50,14 +50,19 @@ body {
 
 /* index page */
 
+.paddinglr20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.paddinglr20  section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .hero{
     margin-top: 5px;
     text-align: center;
-}
-
-.container section{
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .hero-image {
@@ -72,7 +77,6 @@ body {
 }
 
 .hero p{
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 0.9em;
 }
@@ -86,7 +90,6 @@ body {
 
 section h1{
     text-align: center;
-    font-family: 'Signika', sans-serif;
     color: rgba(23, 37, 42, 0.8);
     font-weight: 300;
     font-size: 1.1em;
@@ -130,3 +133,100 @@ Home Page: Post listing
     height: 30px;
 }
 
+
+@media only screen and (min-width: 769px) {
+    .hero-image {
+        width: 165px;
+    }
+
+    .hero h2{
+        font-size: 1.3em;
+    }
+
+    .hero p{
+        font-size: 1.2em;
+    }
+
+    .hero span{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .hero-image {
+        width: 178px;
+    }
+
+    .hero h2{
+        font-size: 1.75em;
+    }
+
+    .hero p{
+        font-size: 1.65em;
+    }
+
+    .hero span{
+        font-size: 1.4em;
+    }
+
+    .post-items .year{
+        font-size: 1.6em;
+    }
+
+    .post-items .item .heading span a{
+        font-size: 1.8em;
+    }
+
+}
+
+@media only screen and (min-width: 1215px) {
+    .hero-image {
+        width: 178px;
+    }
+
+    .hero h2{
+        font-size: 1.95em;
+    }
+
+    .hero p{
+        font-size: 1.75em;
+    }
+
+    .hero span{
+        font-size: 1.45em;
+    }
+
+    .post-items .year{
+        font-size: 2em;
+    }
+
+    .post-items .item .heading span a{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 1407px) {
+    .hero-image {
+        width: 180px;
+    }
+
+    .hero h2{
+        font-size: 1.95em;
+    }
+
+    .hero p{
+        font-size: 1.75em;
+    }
+
+    .hero span{
+        font-size: 1.45em;
+    }
+
+    .post-items .year{
+        font-size: 2em;
+    }
+
+    .post-items .item .heading span a{
+        font-size: 2.2em;
+    } 
+}

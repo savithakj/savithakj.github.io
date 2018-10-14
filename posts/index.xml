@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My though repository</title>
+    <title>My though repository</title>
     <link>http://savithakj.github.io/posts/</link>
-    <description>Recent content in Posts on My though repository</description>
+    <description>Recent content on My though repository</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 13 Oct 2018 05:08:01 -0700</lastBuildDate>

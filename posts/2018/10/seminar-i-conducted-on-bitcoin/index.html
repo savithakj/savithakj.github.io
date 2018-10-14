@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="//fonts.googleapis.com/css?family=Inconsolata|Pacifico|Roboto:300,400|Signika:300,600" rel="stylesheet">
+
+<link href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css" rel="stylesheet" >
+<link href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/main.css">
+
+
+
+    <body class="flow-text">
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="http://savithakj.github.io/">
+                savithajayasankar
+                
+            </a>
+
+            <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuIndex">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navMenuIndex" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a href="/"> @RIT </a>
+                </div>
+                <div class="navbar-item">
+                    <a href="/"> @GitHub </a>
+                </div>
+                <div class="navbar-item">
+                    <a href="/"> Résumé </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script type="text/javascript">
+ document.addEventListener('DOMContentLoaded', () => {
+
+     
+     var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+     
+     if ($navbarBurgers.length > 0) {
+
+         
+         $navbarBurgers.forEach( el => {
+             el.addEventListener('click', () => {
+
+                 
+                 var target = el.dataset.target;
+                 var $target = document.getElementById(target);
+
+                 
+                 el.classList.toggle('is-active');
+                 $target.classList.toggle('is-active');
+             });
+         });
+     }
+
+ });
+</script>
+
+
+        <div class="loop section content-item">
+            <div class="container post">
+                <div class="tk-museo heading">
+                    <h1 class="flexi-h1">Seminar I Conducted on Bitcoin</h1>
+                    <div class="companion">
+                        
+                    </div>
+                </div>
+                <div class="content-body">
+                    <p>This is a simple post about the seminar I conducted on bitcoin</p>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
