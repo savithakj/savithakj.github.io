@@ -1,0 +1,43 @@
+<div class="paddinglr20">
+    <section class="is-hidden-tablet">
+        <h1>
+            I RECENTLY WROTE ABOUT
+        </h1>
+    </section>
+
+    <section class="post-items mt20">
+        {{ range ((where .Site.RegularPages "Type" "posts").GroupByDate "2006") }}
+        <div class="mt20">
+            <div class="year"> {{ .Key }} </div>
+            {{ range .Pages}}
+            <section class="item">
+                <div class="heading">
+                    <span>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </span>
+                    <div class="date">{{ dateFormat "Monday, Jan 2" .Date }} </div>
+                </div>
+            </section>
+            {{ end }}
+        </div>
+        {{ end }}
+    </section>
+
+    <section class="post-items mt20">
+        {{ range ((where .Site.RegularPages "Type" "reviews").GroupByDate "2006") }}
+        <div class="mt20">
+            <div class="year"> {{ .Key }} </div>
+            {{ range .Pages}}
+            <section class="item">
+                <div class="heading">
+                    <span>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </span>
+                    <div class="date">{{ dateFormat "Monday, Jan 2" .Date }} </div>
+                </div>
+            </section>
+            {{ end }}
+        </div>
+        {{ end }}
+    </section>
+</div>
