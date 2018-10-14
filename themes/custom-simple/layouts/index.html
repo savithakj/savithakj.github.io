@@ -66,6 +66,24 @@
                     </div>
                   {{ end }}
                 </section>
+
+                <section class="post-items mt20">
+                    {{ range ((where .Data.Pages "Type" "reviews").GroupByDate "2006") }}
+                    <div class="mt20">
+                        <div class="year"> {{ .Key }} </div>
+                        {{ range .Pages}}
+                        <section class="item">
+                            <div class="heading">
+                                <span>
+                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                </span>
+                                <div class="date">{{ dateFormat "Monday, Jan 2" .Date }} </div>
+                            </div>
+                        </section>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </section>
             </div>
         </div>
 

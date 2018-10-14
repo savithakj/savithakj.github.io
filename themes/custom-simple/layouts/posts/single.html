@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "header.html" . }}
+    <body class="flow-text">
+        {{ partial "navbar.html" . }}
+
+        <div class="loop section content-item">
+            <div class="container post">
+                <div class="tk-museo heading">
+                    <h1 class="flexi-h1">{{ .Title }}</h1>
+                    <div class="companion">
+                        {{ .Description }}
+                    </div>
+                </div>
+                <div class="content-body">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
