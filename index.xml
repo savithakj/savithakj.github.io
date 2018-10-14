@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>My Random Review</title>
+      <title>Review. CryptDB - Processing Queries on an Encrypted Database</title>
       <link>http://savithakj.github.io/reviews/cryptodb-processing-queries-on-an-encrypted-database/</link>
       <pubDate>Sun, 14 Oct 2018 04:56:39 -0700</pubDate>
       
       <guid>http://savithakj.github.io/reviews/cryptodb-processing-queries-on-an-encrypted-database/</guid>
-      <description>Review of: &amp;laquo;CryptDB: Processing Queries on an Encrypted Database&amp;raquo; by Raluca Ada Popa, Catherine M.S. Redfield, Nickolai Zeldovich, and Hari Balakrishnan The paper proposed the use of encrypted Database server where none of the data is stored in plain text. The paper initially describes the problems that occur due to passive DB server attacks when the System Administrators have access to confidential information and such threat models.CryptDB is the ideal to be used in cases of passive database server attacks.</description>
+      <description>Paper: CryptDB - Processing Queries on an Encrypted Database by Raluca Ada Popa, Catherine M.S. Redfield, Nickolai Zeldovich, and Hari Balakrishnan The paper proposed the use of encrypted Database server where none of the data is stored in plain text. The paper initially describes the problems that occur due to passive DB server attacks when the System Administrators have access to confidential information and such threat models. CryptDB is ideal to be used in cases of passive database server attacks.</description>
     </item>
     
     <item>
