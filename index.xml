@@ -21,12 +21,14 @@
     </item>
     
     <item>
-      <title>Seminar I Conducted on Bitcoin</title>
-      <link>http://savithakj.github.io/posts/2018/10/seminar-i-conducted-on-bitcoin/</link>
-      <pubDate>Sat, 13 Oct 2018 05:08:01 -0700</pubDate>
+      <title>Sarcasm Detection in Plain Text Using Tensorflow</title>
+      <link>http://savithakj.github.io/posts/2017/06/sarcasm-detection-in-plain-text-using-tensorflow/</link>
+      <pubDate>Fri, 16 Jun 2017 09:33:30 -0700</pubDate>
       
-      <guid>http://savithakj.github.io/posts/2018/10/seminar-i-conducted-on-bitcoin/</guid>
-      <description>This is a simple post about the seminar I conducted on bitcoin</description>
+      <guid>http://savithakj.github.io/posts/2017/06/sarcasm-detection-in-plain-text-using-tensorflow/</guid>
+      <description>What is Sarcasm? Sarcasm is the use of words that mean the opposite of what you want to say especially to insult someone, to show irritation, or to be funny. Lets see how we can identify sarcasm in plain text and may be later extended to voice inputs.
+Feature Extraction: Feature extraction is a crucial and time-consuming step when it comes to NLP projects. As
+the input is in text form, which cannot be directly given to the neural network as an input</description>
     </item>
     
   </channel>
