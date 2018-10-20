@@ -1,6 +1,6 @@
 ---
 title: "Sarcasm Detection in Plain Text Using Tensorflow"
-date: 2017-06-16T09:33:30-07:00
+date: 2017-05-16T09:33:30-07:00
 draft: false
 ---
 
