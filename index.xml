@@ -21,11 +21,20 @@
     </item>
     
     <item>
-      <title>Sarcasm Detection in Plain Text Using Tensorflow</title>
-      <link>http://savithakj.github.io/posts/2017/06/sarcasm-detection-in-plain-text-using-tensorflow/</link>
-      <pubDate>Fri, 16 Jun 2017 09:33:30 -0700</pubDate>
+      <title>Impacts of GDPR for people outside EU</title>
+      <link>http://savithakj.github.io/posts/2018/07/impacts-of-gdpr-for-people-outside-eu/</link>
+      <pubDate>Mon, 16 Jul 2018 09:33:30 -0700</pubDate>
       
-      <guid>http://savithakj.github.io/posts/2017/06/sarcasm-detection-in-plain-text-using-tensorflow/</guid>
+      <guid>http://savithakj.github.io/posts/2018/07/impacts-of-gdpr-for-people-outside-eu/</guid>
+      <description>The General Data Protection Regulation (GDPR) was created by the European Commission and Council to strengthen and unify Europe&amp;rsquo;s data protection law, replacing the 1995 European Data Protection Directive. Although the GDPR is a European Union (EU) regulation, it applies to any organizations outside of Europe that handle the personal data of EU citizens. This includes the development of applications that are intended to process the personal information of EU citizens.</description>
+    </item>
+    
+    <item>
+      <title>Sarcasm Detection in Plain Text Using Tensorflow</title>
+      <link>http://savithakj.github.io/posts/2017/05/sarcasm-detection-in-plain-text-using-tensorflow/</link>
+      <pubDate>Tue, 16 May 2017 09:33:30 -0700</pubDate>
+      
+      <guid>http://savithakj.github.io/posts/2017/05/sarcasm-detection-in-plain-text-using-tensorflow/</guid>
       <description>What is Sarcasm? Sarcasm is the use of words that mean the opposite of what you want to say especially to insult someone, to show irritation, or to be funny. Lets see how we can identify sarcasm in plain text and may be later extended to voice inputs.
 Feature Extraction: Feature extraction is a crucial and time-consuming step when it comes to NLP projects. As
 the input is in text form, which cannot be directly given to the neural network as an input</description>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="//fonts.googleapis.com/css?family=Inconsolata|Pacifico|Roboto:300,400|Signika:300,600" rel="stylesheet">
+
+<link href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css" rel="stylesheet" >
+<link href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/main.css">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115573554-2"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-115573554-2');
+</script>
+
+
+
+
+    <body>
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="http://savithakj.github.io/">
+                savithajayasankar
+                
+            </a>
+
+            <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuIndex">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navMenuIndex" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a href="https://www.cs.rit.edu/people#graduate-assistants" target="_blank"> @RIT </a>
+                </div>
+                <div class="navbar-item">
+                    <a href="https://github.com/savithakj" target="_blank"> @GitHub </a>
+                </div>
+                <div class="navbar-item">
+                    <a href="/pdfs/jayasankar_savitha_resume.pdf" target="_blank"> Résumé </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script type="text/javascript">
+ document.addEventListener('DOMContentLoaded', () => {
+
+     
+     var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+     
+     if ($navbarBurgers.length > 0) {
+
+         
+         $navbarBurgers.forEach( el => {
+             el.addEventListener('click', () => {
+
+                 
+                 var target = el.dataset.target;
+                 var $target = document.getElementById(target);
+
+                 
+                 el.classList.toggle('is-active');
+                 $target.classList.toggle('is-active');
+             });
+         });
+     }
+
+ });
+</script>
+
+
+        <div class="mt120 post-content paddinglr10">
+            <section>
+                <div class="container is-fluid">
+                    <section>
+                        <div class="container is-fluid">
+                            <h1 class="content-title">Sarcasm Detection in Plain Text Using Tensorflow</h1>
+                            <div class="content-description">
+                                
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="mt40">
+                        <div class="container is-fluid content">
+                            
+
+<p>What is Sarcasm? Sarcasm is the use of words that mean the opposite of what you want to say especially to insult someone, to show irritation, or to be funny. Lets see how we can identify sarcasm in plain text and may be later extended to voice inputs.</p>
+
+<h4 id="feature-extraction">Feature Extraction:</h4>
+
+<p>Feature extraction is a crucial and time-consuming step when it comes to NLP projects. As<br />
+the input is in text form, which cannot be directly given to the neural network as an input<br />
+hence we need to extract features from the sentence. The base project has extracted multiple<br />
+features from a sentence like n-grams, polarity using SentiNet and TextBlob, and the topic<br />
+of the sentence using gensim.</p>
+
+<h4 id="model">Model :</h4>
+
+<p>The model with three hidden layers and one output layer was built. Each hidden layer has 100 neurons, and output layer has two neurons, one for each class, namely Sarcastic and Regular. One output neuron should be sufficient for a binary classifer, but the model has two so that the output is in the form of one hot encoded array. One hot encoded array is easy to extract and compare results. One hot encoded array is the type of encoding in which the index corresponding to the class is 1 in the array, and the other values are 0.</p>
+
+<p><img src="/images/model.png" alt="model" /></p>
+
+<h3 id="results">Results:</h3>
+
+<p>The confusion matrix is as follows:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>sarcastic</th>
+<th>regular</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>sarcastic</td>
+<td>3240</td>
+<td>4273</td>
+</tr>
+
+<tr>
+<td>regular</td>
+<td>2422</td>
+<td>6481</td>
+</tr>
+</tbody>
+</table>
+
+<p>From the observations, it is evident that the project was able to obtain similar performances with the same dataset using TensorFlow with minor features. The performance would improve if more features were included. The dataset had very fewer instances. If the model were trained with more instances, then it would result in a better performance.</p>
+
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+
+        <div class="empty-footer">
+        </div>
+    </body>
+</html>
