@@ -6,10 +6,19 @@
     <description>Recent content on My though repository</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Oct 2018 04:56:39 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 04:56:39 -0700</lastBuildDate>
     
 	<atom:link href="http://savithakj.github.io/reviews/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Review. SLEUTH: Real-time Attack Scenario Reconstruction from COTS Audit Data</title>
+      <link>http://savithakj.github.io/reviews/sleuth/</link>
+      <pubDate>Mon, 15 Oct 2018 04:56:39 -0700</pubDate>
+      
+      <guid>http://savithakj.github.io/reviews/sleuth/</guid>
+      <description>Paper: SLEUTH: Real-time Attack Scenario Reconstruction from COTS Audit Data by Md Nahid Hossain, Sadegh M. Milajerdi, Junao Wang, Birhanu Eshete, Rigel Gjomemo, R. Sekar, Scott D. Stoller, and V.N. Venkatakrishnan The paper presents a system to track attacks and methods to reconstruction the attack in real time. This real-time attack detection and scenario reconstruction system is used as a forensic tool where all the event logs are stored and analyzed in real time.</description>
+    </item>
     
     <item>
       <title>Review. CryptDB - Processing Queries on an Encrypted Database</title>

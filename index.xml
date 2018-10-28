@@ -6,10 +6,19 @@
     <description>Recent content on My though repository</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Oct 2018 04:56:39 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 04:56:39 -0700</lastBuildDate>
     
 	<atom:link href="http://savithakj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Review. SLEUTH: Real-time Attack Scenario Reconstruction from COTS Audit Data</title>
+      <link>http://savithakj.github.io/reviews/sleuth/</link>
+      <pubDate>Mon, 15 Oct 2018 04:56:39 -0700</pubDate>
+      
+      <guid>http://savithakj.github.io/reviews/sleuth/</guid>
+      <description>Paper: SLEUTH: Real-time Attack Scenario Reconstruction from COTS Audit Data by Md Nahid Hossain, Sadegh M. Milajerdi, Junao Wang, Birhanu Eshete, Rigel Gjomemo, R. Sekar, Scott D. Stoller, and V.N. Venkatakrishnan The paper presents a system to track attacks and methods to reconstruction the attack in real time. This real-time attack detection and scenario reconstruction system is used as a forensic tool where all the event logs are stored and analyzed in real time.</description>
+    </item>
     
     <item>
       <title>Review. CryptDB - Processing Queries on an Encrypted Database</title>
@@ -18,15 +27,6 @@
       
       <guid>http://savithakj.github.io/reviews/cryptodb-processing-queries-on-an-encrypted-database/</guid>
       <description>Paper: CryptDB - Processing Queries on an Encrypted Database by Raluca Ada Popa, Catherine M.S. Redfield, Nickolai Zeldovich, and Hari Balakrishnan The paper proposed the use of encrypted Database server where none of the data is stored in plain text. The paper initially describes the problems that occur due to passive DB server attacks when the System Administrators have access to confidential information and such threat models. CryptDB is ideal to be used in cases of passive database server attacks.</description>
-    </item>
-    
-    <item>
-      <title>Impacts of GDPR for people outside EU</title>
-      <link>http://savithakj.github.io/posts/2018/07/impacts-of-gdpr-for-people-outside-eu/</link>
-      <pubDate>Mon, 16 Jul 2018 09:33:30 -0700</pubDate>
-      
-      <guid>http://savithakj.github.io/posts/2018/07/impacts-of-gdpr-for-people-outside-eu/</guid>
-      <description>The General Data Protection Regulation (GDPR) was created by the European Commission and Council to strengthen and unify Europe&amp;rsquo;s data protection law, replacing the 1995 European Data Protection Directive. Although the GDPR is a European Union (EU) regulation, it applies to any organizations outside of Europe that handle the personal data of EU citizens. This includes the development of applications that are intended to process the personal information of EU citizens.</description>
     </item>
     
     <item>
